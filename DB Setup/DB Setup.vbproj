@@ -123,10 +123,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MyDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MyDB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>MyDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>
